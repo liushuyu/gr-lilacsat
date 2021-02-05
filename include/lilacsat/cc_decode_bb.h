@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API cc_decode_bb : virtual public gr::block
     {
      public:
-      typedef boost::shared_ptr<cc_decode_bb> sptr;
+      typedef std::shared_ptr<cc_decode_bb> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::cc_decode_bb.

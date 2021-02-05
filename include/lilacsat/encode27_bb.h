@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API encode27_bb : virtual public gr::sync_interpolator
     {
      public:
-      typedef boost::shared_ptr<encode27_bb> sptr;
+      typedef std::shared_ptr<encode27_bb> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::encode27_bb.

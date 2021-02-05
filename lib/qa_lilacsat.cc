@@ -25,12 +25,15 @@
  * add them here.
  */
 
-#include "qa_lilacsat.h"
+#include <boost/test/unit_test.hpp>
 
-CppUnit::TestSuite *
-qa_lilacsat::suite()
-{
-  CppUnit::TestSuite *s = new CppUnit::TestSuite("lilacsat");
+namespace gr {
+  namespace lilacsat {
 
-  return s;
-}
+    BOOST_AUTO_TEST_CASE(test_lilacsat_replace_with_specific_test_name)
+    {
+      // Put test here
+    }
+
+  } /* namespace lilacsat */
+} /* namespace gr */

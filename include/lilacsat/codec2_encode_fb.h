@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API codec2_encode_fb : virtual public gr::sync_decimator
     {
      public:
-      typedef boost::shared_ptr<codec2_encode_fb> sptr;
+      typedef std::shared_ptr<codec2_encode_fb> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::codec2_encode_fb.

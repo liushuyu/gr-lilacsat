@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API lilacsat1_frame_depack : virtual public gr::sync_block
     {
      public:
-      typedef boost::shared_ptr<lilacsat1_frame_depack> sptr;
+      typedef std::shared_ptr<lilacsat1_frame_depack> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::lilacsat1_frame_depack.

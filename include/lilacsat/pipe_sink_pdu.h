@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API pipe_sink_pdu : virtual public gr::block
     {
      public:
-      typedef boost::shared_ptr<pipe_sink_pdu> sptr;
+      typedef std::shared_ptr<pipe_sink_pdu> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::pipe_sink_pdu.

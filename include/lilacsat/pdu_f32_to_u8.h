@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API pdu_f32_to_u8 : virtual public gr::sync_block
     {
      public:
-      typedef boost::shared_ptr<pdu_f32_to_u8> sptr;
+      typedef std::shared_ptr<pdu_f32_to_u8> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::pdu_f32_to_u8.

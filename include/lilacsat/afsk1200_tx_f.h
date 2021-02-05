@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API afsk1200_tx_f : virtual public gr::sync_block
     {
      public:
-      typedef boost::shared_ptr<afsk1200_tx_f> sptr;
+      typedef std::shared_ptr<afsk1200_tx_f> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::afsk1200_tx_f.

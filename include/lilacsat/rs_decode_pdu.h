@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API rs_decode_pdu : virtual public gr::sync_block
     {
      public:
-      typedef boost::shared_ptr<rs_decode_pdu> sptr;
+      typedef std::shared_ptr<rs_decode_pdu> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::rs_decode_pdu.

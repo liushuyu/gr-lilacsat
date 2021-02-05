@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API attach_rs_codeblock : virtual public gr::sync_block
     {
      public:
-      typedef boost::shared_ptr<attach_rs_codeblock> sptr;
+      typedef std::shared_ptr<attach_rs_codeblock> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::attach_rs_codeblock.

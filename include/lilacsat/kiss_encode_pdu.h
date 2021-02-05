@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API kiss_encode_pdu : virtual public gr::block
     {
      public:
-      typedef boost::shared_ptr<kiss_encode_pdu> sptr;
+      typedef std::shared_ptr<kiss_encode_pdu> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::kiss_encode_pdu.

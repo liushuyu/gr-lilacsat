@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API codec2_decode_bf : virtual public gr::sync_interpolator
     {
      public:
-      typedef boost::shared_ptr<codec2_decode_bf> sptr;
+      typedef std::shared_ptr<codec2_decode_bf> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::codec2_decode_bf.

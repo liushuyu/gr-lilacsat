@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API sync_det_b : virtual public gr::sync_block
     {
      public:
-      typedef boost::shared_ptr<sync_det_b> sptr;
+      typedef std::shared_ptr<sync_det_b> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::sync_det_b.

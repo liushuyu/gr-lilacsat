@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API print_to_file_b : virtual public gr::sync_block
     {
      public:
-      typedef boost::shared_ptr<print_to_file_b> sptr;
+      typedef std::shared_ptr<print_to_file_b> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::print_to_file_b.

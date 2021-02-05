@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API bpsk_demod_cb : virtual public gr::sync_block
     {
      public:
-      typedef boost::shared_ptr<bpsk_demod_cb> sptr;
+      typedef std::shared_ptr<bpsk_demod_cb> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::bpsk_demod_cb.

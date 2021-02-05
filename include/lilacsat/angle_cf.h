@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API angle_cf : virtual public gr::sync_block
     {
      public:
-      typedef boost::shared_ptr<angle_cf> sptr;
+      typedef std::shared_ptr<angle_cf> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::angle_cf.

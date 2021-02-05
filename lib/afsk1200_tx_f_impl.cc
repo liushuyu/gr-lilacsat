@@ -64,7 +64,7 @@ namespace gr {
 	d_ptt_port = pmt::mp("ptt");
       	message_port_register_out(d_ptt_port);
 
-	set_msg_handler(d_in_port, boost::bind(&afsk1200_tx_f_impl::pmt_in_callback, this ,_1) );
+	set_msg_handler(d_in_port, boost::bind(&afsk1200_tx_f_impl::pmt_in_callback, this ,boost::placeholders::_1) );
 	
 	afsk_init(&afsk);
 	

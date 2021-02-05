@@ -62,7 +62,7 @@ namespace gr {
 	d_in_port = pmt::mp("in");
       	message_port_register_in(d_in_port);
 
-	set_msg_handler(d_in_port, boost::bind(&serial_sink_pdu_impl::pmt_in_callback, this ,_1) );
+	set_msg_handler(d_in_port, boost::bind(&serial_sink_pdu_impl::pmt_in_callback, this ,boost::placeholders::_1) );
 
 	fd = serialOpen((const char *)d_path.data(), (unsigned int)d_baudrate);
 

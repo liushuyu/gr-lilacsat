@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API dslwp_tm_parser : virtual public gr::block
     {
      public:
-      typedef boost::shared_ptr<dslwp_tm_parser> sptr;
+      typedef std::shared_ptr<dslwp_tm_parser> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::dslwp_tm_parser.

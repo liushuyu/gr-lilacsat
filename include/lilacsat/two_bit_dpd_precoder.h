@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API two_bit_dpd_precoder : virtual public gr::sync_block
     {
      public:
-      typedef boost::shared_ptr<two_bit_dpd_precoder> sptr;
+      typedef std::shared_ptr<two_bit_dpd_precoder> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::two_bit_dpd_precoder.

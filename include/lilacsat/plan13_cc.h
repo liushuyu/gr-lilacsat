@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API plan13_cc : virtual public gr::sync_block
     {
      public:
-      typedef boost::shared_ptr<plan13_cc> sptr;
+      typedef std::shared_ptr<plan13_cc> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::plan13_cc.

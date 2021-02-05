@@ -36,7 +36,7 @@ namespace gr {
     class LILACSAT_API fec_encode_b : virtual public gr::sync_block
     {
      public:
-      typedef boost::shared_ptr<fec_encode_b> sptr;
+      typedef std::shared_ptr<fec_encode_b> sptr;
 
       /*!
        * \brief Return a shared_ptr to a new instance of lilacsat::fec_encode_b.
